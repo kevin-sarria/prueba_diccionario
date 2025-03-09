@@ -1,5 +1,4 @@
-import { dictionaryState } from '@/interfaces/dictionaryState.interface';
-import { createSlice, PayloadAction } from '@reduxjs/toolkit'
+import { createSlice } from '@reduxjs/toolkit'
 
 const dictionarySlice = createSlice({
   name: 'dictionary',

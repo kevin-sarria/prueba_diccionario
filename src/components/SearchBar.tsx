@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useAppDispatch } from "@/hooks/storeHooks";
 
 import { FaSearch } from "react-icons/fa";
@@ -48,7 +48,7 @@ export const SearchBar = () => {
   return (
     <div className="w-full my-10">
 
-        <div className="flex p-3 bg-gray-200 rounded-xl mx-auto h-12 items-center">
+        <div className="flex px-5 bg-gray-200 dark:bg-gray-400 rounded-2xl mx-auto h-14 items-center">
             <form
               className="w-full flex"
               onSubmit={handleSubmit}
@@ -58,13 +58,13 @@ export const SearchBar = () => {
                 name="search"
                 id="search"
                 placeholder="Type a Word to Ask..."
-                className="text-neutral-700 font-semibold w-full focus:outline-0"
+                className="text-neutral-700 dark:text-neutral-100 placeholder:dark:text-neutral-600 font-semibold w-full focus:outline-0"
                 value={wordToAsk}
                 onChange={ (e) => setWordToAsk(e.target.value) }
                 autoComplete="off"
               />
               <button type="submit">
-                <FaSearch className="w-5 h-5 text-purple-400 cursor-pointer" />
+                <FaSearch className="w-5 h-5 text-purple-400 dark:text-purple-500 hover:dark:text-purple-400 cursor-pointer" />
               </button>
             </form>
         </div>
