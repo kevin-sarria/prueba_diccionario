@@ -20,7 +20,7 @@ Antes de ejecutar la aplicación, asegúrate de tener instalado:
 2. Accede al directorio del proyecto:
 
    ```sh
-   cd DictionaryApp
+   cd prueba_diccionario
    ```
 
 3. Instala las dependencias:
