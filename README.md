@@ -14,7 +14,7 @@ Antes de ejecutar la aplicación, asegúrate de tener instalado:
 1. Clona este repositorio:
 
    ```sh
-   git clone https://github.com/tu-usuario/DictionaryApp.git
+   git clone https://github.com/kevin-sarria/prueba_diccionario
    ```
 
 2. Accede al directorio del proyecto:
@@ -47,7 +47,6 @@ npm run dev
 ## Tecnologías utilizadas
 
 - Node.js
-- Express (si aplica)
 - API de diccionario ([Free Dictionary API](https://dictionaryapi.dev/))
 
 ## Licencia
