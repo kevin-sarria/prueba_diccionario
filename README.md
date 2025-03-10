@@ -37,8 +37,6 @@ Para ejecutar la aplicación en un entorno de desarrollo, usa el siguiente coman
 npm run dev
 ```
 
-Si el proyecto usa un archivo de configuración para API keys u otros ajustes, asegúrate de configurarlo antes de ejecutar la aplicación.
-
 ## Uso
 
 - Busca una palabra para obtener su significado.
