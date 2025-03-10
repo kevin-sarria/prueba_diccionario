@@ -1,5 +1,68 @@
 @import "tailwindcss";
 
+html {
+  @apply transition-colors duration-300 relative;
+}
+
+.dark {
+  @apply bg-slate-800 text-white transition-all duration-300;
+}
+
+.dark span {
+  @apply text-white;
+}
+
+.dark .phonetic {
+  @apply text-purple-400;
+}
+
+.dark li {
+  @apply text-gray-200;
+}
+
+.dark h3,
+.dark h4,
+.dark h5 {
+  @apply text-gray-100;
+}
+
+.dark a {
+  @apply text-gray-300 hover:text-gray-200;
+}
+
+.dark select {
+  @apply bg-transparent text-neutral-300;
+}
+
+.dark .searchbar {
+  @apply bg-slate-700 text-neutral-300;
+}
+
+.dark .searchbar input[type="text"] {
+  @apply text-neutral-300 placeholder:text-neutral-500;
+}
+
+.dark .history-button {
+  @apply bg-slate-700 shadow shadow-slate-500;
+}
+
+.dark .history-button,
+.dark .history-button span {
+  @apply text-gray-300;
+}
+
+.dark .drawer {
+  @apply bg-slate-800;
+}
+
+.dark .drawer .card-word {
+  @apply bg-slate-700 shadow shadow-slate-500;
+}
+
+.dark .drawer .btn-close-drawer {
+  @apply text-white;
+}
+
 .serif {
   font-family: serif;
 }

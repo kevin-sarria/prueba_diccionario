@@ -2,7 +2,6 @@
 import { useEffect, useState } from "react";
 
 type Theme = "light" | "dark";
-console.log(window.matchMedia("(prefers-color-scheme: dark)"));
 
 export function useTheme() {
   const [theme, setTheme] = useState<Theme>("light");
