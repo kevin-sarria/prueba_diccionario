@@ -34,7 +34,7 @@ Antes de ejecutar la aplicación, asegúrate de tener instalado:
 Para ejecutar la aplicación en un entorno de desarrollo, usa el siguiente comando:
 
 ```sh
-npm start
+npm run dev
 ```
 
 Si el proyecto usa un archivo de configuración para API keys u otros ajustes, asegúrate de configurarlo antes de ejecutar la aplicación.
